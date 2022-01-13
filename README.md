@@ -17,12 +17,13 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 # Election-Audit Results
 The analysis of the election shows that:
-- There were "369,711" votes cast in the election.[^note] [^1] This calculation was done with using the csv file and counting how many rows the file had. Each row was vote, with the exception of the first row being the header.
+- There were 369,711 votes cast in the election.
+- **This calculation was done with using the csv file and counting how many rows the file had. Each row was a vote, with the exception of the first row being the header.**
 - The counties, their percentage of total votes, and total number of votes casted were:
     - Jefferson: 10.5% (38,855)
     - Denver: 82.8% (306,055)
-    - Arapahoe: 6.7% (24,801)[^note]
-[^1] The county results were calculated by looping through the county_list(dict). I created a "votes" varible to hold the total votes for each county and used that variable to determine the percentage of votes for each county.
+    - Arapahoe: 6.7% (24,801)
+- **The county results were calculated by looping through the county list to get each county. I created a "votes" variable to hold the total votes for each county and used that variable to determine the percentage of votes for each county.**
 ![County Results - Code](./Resources/county_results.png)
 - The county which casted the most votes: Denver
 - The candidates were:
@@ -33,7 +34,7 @@ The analysis of the election shows that:
     - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
     - Diana DeGette received 73.8% of the vote and 272,892 votes.
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
-Using the method I used to get the county results, I calculated the candidate results.
+- **Using the method I used to get the county results, I calculated the candidate results.**
 ![Candidate Results - Code](./Resources/candidate_results.png)
 - The winner of the election was:
     - Diana DeGette who received 73.8% of the vote and 272,892 votes.
