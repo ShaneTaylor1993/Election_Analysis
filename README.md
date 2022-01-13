@@ -24,7 +24,7 @@ The analysis of the election shows that:
     - Denver: 82.8% (306,055)
     - Arapahoe: 6.7% (24,801)
 - **The county results were calculated by looping through the county list to get each county. I created a "votes" variable to hold the total votes for each county and used that variable to determine the percentage of votes for each county.**
-![County Results - Code](./Resources/county_results.png)
+![County Results - Code]
 - The county which casted the most votes: Denver
 - The candidates were:
     - Charles Casper Stockham
